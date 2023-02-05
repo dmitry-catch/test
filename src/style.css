@@ -7,4 +7,50 @@
 .header {
     min-height: 600px;
     background: #87509c;
+    padding: 57px 0 145px 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation_list li{
+    width: 75px;
+    list-style-type: none;
+}
+
+.navigation_list li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 145px;
+    font-size: 42.5px;
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 54px;
+    padding: 28px 80px;
+    background: #eb7d4b;
+    color: white
 }
