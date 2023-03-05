@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    /* font-family: ; */
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .header {
     min-height: 600px;
     background: #87509c;
     padding: 57px 0 145px 0;
+    color: #fff
 }
 
 .container {
@@ -31,10 +32,16 @@
     list-style-type: none;
 }
 
+.navigation_list li a:hover{
+    background-color: #643a79;
+    border-radius: 4px;
+}
+
 .navigation_list li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 17px;
 }
 
 h2 {
@@ -43,14 +50,123 @@ h2 {
     margin-top: 145px;
     font-size: 42.5px;
     font-weight: bold;
-    color: white;
+    text-align: center;
 }
 
-button {
+.header__btn {
     display: block;
     margin: 0 auto;
     margin-top: 54px;
     padding: 28px 80px;
     background: #eb7d4b;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.services {
+    padding: 80px 0 128px 0;
+    background: #17c2a4;
     color: white
+}
+
+.section__header {
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.header__line {
+    background: rgba(0, 0, 0, 0.15);
+    height: 4px;
+    width: 87px;
+    margin: 0 auto;
+    margin-top: 21px;
+
+}
+
+.section__text {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 80px;
+}
+
+.item{
+    margin-right: 88px;
+}
+
+.item__icon{
+    display: block;
+    margin: 0 auto;
+}
+
+.item__name{
+    text-align: center;
+    margin-top: 62px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.item__desc {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team{
+    padding: 120px 0 128px 0;
+    background: #e7f1f8;
+    color: #3c4761
+}
+
+
+.item__logo{
+    background: #878787;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.item__subheader{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.32px;
+    text-align: center;
+    color: #30bae7;
+    margin-top: 15px;
+}
+
+.item__icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.item__icons div{
+    margin-right: 10px;
+    background: #bdd1df;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+.item__icons div a img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.item__icons div:hover{
+    background: #00acee;
+    border: 1px solid black;
 }
